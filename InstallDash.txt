@@ -1,0 +1,12 @@
+pip install dash                # Dash: framework for building interactive web dashboards
+pip install plotly              # Plotly: graphing library used for charts in Dash
+pip install pandas              # Pandas: data manipulation and DataFrame support
+pip install numpy               # NumPy: numerical computing with arrays and math operations
+pip install mysql-connector-python  # MySQL driver from Oracle, for connecting to MySQL on RDS
+pip install pymysql             # Lightweight MySQL driver, works well with SQLAlchemy
+pip install sqlalchemy          # SQLAlchemy: SQL toolkit and ORM for Python-database integration
+pip install statsmodels         # Statsmodels: statistical modeling and forecasting library
+
+Optional:
+pip install psycopg2            # PostgreSQL driver, used to connect to AWS RDS (PostgreSQL)
+pip show dash                   # Shows details about the Dash package (version, location, etc.)
